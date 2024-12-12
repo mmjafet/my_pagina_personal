@@ -13,6 +13,10 @@ def render():
                 rx.image(src="/project2.png"),
                 rx.text("Proyecto 2: Aplicación de Flask para facial points"),
             ),
+            rx.card(
+                rx.image(src="/project3.png"),
+                rx.text("Proyecto 3: Creaccion y estudio de pipelines para analis de datos"),
+            ),
         ),
         rx.link("Volver al inicio", href="/"),
         spacing="5",
